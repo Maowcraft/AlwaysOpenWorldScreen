@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "maowcraft.alwaysopenworldscreen.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinWorldListWidget"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

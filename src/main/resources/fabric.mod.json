@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "alwaysopenworldscreen",
+  "version": "${version}",
+  "name": "Always Open World Screen",
+  "description": "Stops the game from moving to the 'Create New World' screen whenever you have no worlds.",
+  "authors": [
+    "Maow"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "maowcraft.alwaysopenworldscreen.AlwaysOpenWorldScreen"
+    ]
+  },
+  "mixins": [
+    "alwaysopenworldscreen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.3+build.207",
+    "minecraft": "1.16.3"
+  }
+}
